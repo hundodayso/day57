@@ -8,4 +8,5 @@ def get_all_posts():
 
 
 if __name__ == "__main__":
+    app.config['EXPLAIN_TEMPLATE_LOADING'] = True
     app.run(debug=True)
